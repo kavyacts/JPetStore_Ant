@@ -1,0 +1,2655 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" id="0" name="BeanTest" package="com.ibatis.jpetstore.domain" tests="1" time="0.546">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.domain.BeanTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.domain.BeanTest.xml propsfile=D:\JPetStore5\build\junit916234736.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.domain.BeanTest" name="testAllReadWriteProperties" time="0.524"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="1" name="AccountDaoTest" package="com.ibatis.jpetstore.persistence" tests="5" time="0.045">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.AccountDaoTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.AccountDaoTest.xml propsfile=D:\JPetStore5\build\junit472505883.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.AccountDaoTest" name="testShouldFindDefaultUserAccountByUsernameAndPassword" time="0.024"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.AccountDaoTest" name="testShouldFindDefaultUserAccountByUsername" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.AccountDaoTest" name="testShouldInsertNewAccount" time="0.016"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.AccountDaoTest" name="testShouldUpdateAccountEmailAddress" time="0.002"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.AccountDaoTest" name="testDummy" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="2" name="BasePersistenceTest" package="com.ibatis.jpetstore.persistence" tests="1" time="0.004">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.BasePersistenceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.BasePersistenceTest.xml propsfile=D:\JPetStore5\build\junit2110466001.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.BasePersistenceTest" name="testDummy" time="0.001"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="3" name="CategoryDaoTest" package="com.ibatis.jpetstore.persistence" tests="3" time="0.027">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.CategoryDaoTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.CategoryDaoTest.xml propsfile=D:\JPetStore5\build\junit957572776.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.CategoryDaoTest" name="testShouldFindCategoryByID" time="0.024"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.CategoryDaoTest" name="testShouldVerifyCategoryListContainsFiveItems" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.CategoryDaoTest" name="testDummy" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="4" name="ItemDaoTest" package="com.ibatis.jpetstore.persistence" tests="6" time="0.036">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.ItemDaoTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.ItemDaoTest.xml propsfile=D:\JPetStore5\build\junit504586569.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ItemDaoTest" name="testShouldFindItemByID" time="0.026"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ItemDaoTest" name="testShouldVerifyItemIsInStock" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ItemDaoTest" name="testShouldUpdateInventoryForItem" time="0.003"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ItemDaoTest" name="testShouldVerifyItemIsOutOfStock" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ItemDaoTest" name="testShouldListTwoItemsForGivenProduct" time="0.002"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ItemDaoTest" name="testDummy" time="0.001"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="5" name="OrderDaoTest" package="com.ibatis.jpetstore.persistence" tests="3" time="0.032">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.OrderDaoTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.OrderDaoTest.xml propsfile=D:\JPetStore5\build\junit1256168495.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.OrderDaoTest" name="testShouldListASingleOrderForAUser" time="0.028"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.OrderDaoTest" name="testShouldInsertNewOrderWithLineItems" time="0.002"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.OrderDaoTest" name="testDummy" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="6" name="ProductDaoTest" package="com.ibatis.jpetstore.persistence" tests="4" time="0.038">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.ProductDaoTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.ProductDaoTest.xml propsfile=D:\JPetStore5\build\junit1313967685.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ProductDaoTest" name="testShouldListProductsForACategory" time="0.025"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ProductDaoTest" name="testShouldFindAllProductsContainingKeyword" time="0.009"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ProductDaoTest" name="testShouldFindSpecificProductByID" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.ProductDaoTest" name="testDummy" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="7" name="SequenceDaoTest" package="com.ibatis.jpetstore.persistence" tests="2" time="0.027">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.persistence.SequenceDaoTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.persistence.SequenceDaoTest.xml propsfile=D:\JPetStore5\build\junit1803680585.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.SequenceDaoTest" name="testSequenceShouldReturnIncrementalIdNumbers" time="0.025"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.persistence.SequenceDaoTest" name="testDummy" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="8" name="AccountBeanTest" package="com.ibatis.jpetstore.presentation" tests="11" time="0.601">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.presentation.AccountBeanTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.presentation.AccountBeanTest.xml propsfile=D:\JPetStore5\build\junit1774408415.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldSuccessfullyCallServicesToUpdateExistingAccount" time="0.576"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldSuccessfullyCallServicesToCreateNewAccount" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldCallEditAccountFormReturningSuccess" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldSwitchPageDirection" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldSignoffAccount" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldSignonAccount" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldFailToSignonAccount" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldGetCategories" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldGetLanguages" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldResetBooleanOptions" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.AccountBeanTest" name="testShouldClearAccountBean" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="9" name="CartBeanTest" package="com.ibatis.jpetstore.presentation" tests="7" time="0.555">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.presentation.CartBeanTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.presentation.CartBeanTest.xml propsfile=D:\JPetStore5\build\junit475785401.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldClearAllCartData" time="0.528"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldAddItemToCart" time="0.004"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldRemoveItemFromCart" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldFailToRemoveItemFromCart" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldUpdateCartQuantities" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldSuccessfullyReturnFromViewCart" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CartBeanTest" name="testShouldSwitchPagesBackAndForth" time="0.001"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="10" name="CatalogBeanTest" package="com.ibatis.jpetstore.presentation" tests="8" time="0.57">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.presentation.CatalogBeanTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.presentation.CatalogBeanTest.xml propsfile=D:\JPetStore5\build\junit522856202.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldClearCatalogBean" time="0.544"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldSwitchItemPageBackAndForth" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldSearchProductsByKeyword" time="0.003"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldFailToSearchProducts" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldPopulateProductByIdForViewing" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldSwitchProductPageBackAndForth" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldPopulateCategoryByIdForViewing" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldPopulateItemByIdForViewing" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="11" name="OrderBeanTest" package="com.ibatis.jpetstore.presentation" tests="14" time="0.567">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.presentation.OrderBeanTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.presentation.OrderBeanTest.xml propsfile=D:\JPetStore5\build\junit1217496777.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldForceSignonWhenAttemptingToCreateANewOrderWithoutBeingSignedIn" time="0.525"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldSwitchOrderListPagesBackAndForth" time="0.005"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldResetShippingAddressRequirement" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldFailDueToAMissingCart" time="0.011"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldSuccessfullyViewOrder" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldConfirmationBeforeNewOrder" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldFaileDueToMissingNewOrder" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldSuccessfullyCreateNewOrder" time="0.002"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldFailToViewOrderDueToMismatchedUsername" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldRequireShippingAddressBeforeNewOrder" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldGetCardTypes" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testListListOrdersByUsername" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testShouldClearAllFields" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.presentation.OrderBeanTest" name="testSuccessfullyViewCart" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="12" name="AccountServiceTest" package="com.ibatis.jpetstore.service" tests="4" time="0.095">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.service.AccountServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.service.AccountServiceTest.xml propsfile=D:\JPetStore5\build\junit221134298.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.service.AccountServiceTest" name="testShouldVerifyGetAccountIsCalledByUsernameAndPassword" time="0.073"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.AccountServiceTest" name="testShouldVerifyGetAccountIsCalledByUsername" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.AccountServiceTest" name="testShouldVerifyInsertAccountIsCalled" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.AccountServiceTest" name="testShouldVerifyUpdateAccountIsCalled" time="0.0"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="13" name="CatalogServiceTest" package="com.ibatis.jpetstore.service" tests="8" time="0.1">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.service.CatalogServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.service.CatalogServiceTest.xml propsfile=D:\JPetStore5\build\junit1762044611.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testCallSearchProductsOnProductDao" time="0.071"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldFindProductIsInStock" time="0.004"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldCallGetProductOnProductDao" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldCallGetProductListByCategoryOnProductDao" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldCallGetCategoryListOnCategoryDao" time="0.002"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldCallGetCategoryOnCategoryDao" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldCallGetItemListByProductOnItemDao" time="0.0"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.CatalogServiceTest" name="testShouldCallGetItemOnItemDao" time="0.001"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="14" name="OrderServiceTest" package="com.ibatis.jpetstore.service" tests="4" time="0.108">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Oracle Corporation"></property>
+
+          <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+
+          <property name="lib" value="../lib"></property>
+
+          <property name="os.name" value="Windows 7"></property>
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_65\jre\classes"></property>
+
+          <property name="sun.desktop" value="windows"></property>
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.version" value="1.7.0_65-b19"></property>
+
+          <property name="weblib" value="webapp/WEB-INF/lib/"></property>
+
+          <property name="user.name" value="417910"></property>
+
+          <property name="ant.file.JPetStore" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="reports" value="reports"></property>
+
+          <property name="instrumentedclasses" value="work/instrumentedclasses/"></property>
+
+          <property name="user.language" value="en"></property>
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin"></property>
+
+          <property name="webclasses" value="webapp/WEB-INF/classes/"></property>
+
+          <property name="ant.project.name" value="JPetStore"></property>
+
+          <property name="junitreports" value="reports/junit/"></property>
+
+          <property name="java.version" value="1.7.0_65"></property>
+
+          <property name="classes" value="work/classes/"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="webapp" value="webapp"></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"></property>
+
+          <property name="sun.jnu.encoding" value="Cp1252"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="web" value="../web"></property>
+
+          <property name="java.class.version" value="51.0"></property>
+
+          <property name="src" value="../src"></property>
+
+          <property name="user.country" value="US"></property>
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_65\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode, sharing"></property>
+
+          <property name="ant.file" value="D:\JPetStore5\build\build.xml"></property>
+
+          <property name="os.version" value="6.1"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="java.vm.version" value="24.65-b04"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="testclasses" value="work/testclasses/"></property>
+
+          <property name="user.script" value=""></property>
+
+          <property name="work" value="work"></property>
+
+          <property name="user.home" value="C:\Users\417910"></property>
+
+          <property name="java.specification.vendor" value="Oracle Corporation"></property>
+
+          <property name="test" value="../test"></property>
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_65\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\HashiCorp\Vagrant\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\bin\;D:\ant\bin\;."></property>
+
+          <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+
+          <property name="java.vm.vendor" value="Oracle Corporation"></property>
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.service.OrderServiceTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JPetStore5\build\reports\junit\TEST-com.ibatis.jpetstore.service.OrderServiceTest.xml propsfile=D:\JPetStore5\build\junit1139727343.properties"></property>
+
+          <property name="java.class.path" value="D:\JPetStore5\build\work\instrumentedclasses;D:\JPetStore5\build\work\classes;D:\JPetStore5\build\work\testclasses;D:\JPetStore5\src;D:\JPetStore5\test;D:\JPetStore5\lib\antlr.jar;D:\JPetStore5\lib\beanaction.jar;D:\JPetStore5\lib\commons-beanutils.jar;D:\JPetStore5\lib\commons-digester.jar;D:\JPetStore5\lib\commons-fileupload.jar;D:\JPetStore5\lib\commons-logging.jar;D:\JPetStore5\lib\commons-validator.jar;D:\JPetStore5\lib\hsqldb.jar;D:\JPetStore5\lib\ibatis-common-2.jar;D:\JPetStore5\lib\ibatis-dao-2.jar;D:\JPetStore5\lib\ibatis-sqlmap-2.jar;D:\JPetStore5\lib\jakarta-oro.jar;D:\JPetStore5\lib\struts.jar;D:\JPetStore5\devlib\ant-junit.jar;D:\JPetStore5\devlib\ant-launcher.jar;D:\JPetStore5\devlib\ant.jar;D:\JPetStore5\devlib\cglib-nodep-2.1_3.jar;D:\JPetStore5\devlib\emma.jar;D:\JPetStore5\devlib\emma_ant.jar;D:\JPetStore5\devlib\jmock-1.0.1.jar;D:\JPetStore5\devlib\jmock-cglib-1.0.1.jar;D:\JPetStore5\devlib\junit.jar;D:\JPetStore5\devlib\servlet.jar;D:\JPetStore5\build;C:\Program Files\Java\jre7\lib\ext\QTJava.zip"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+
+          <property name="devlib" value="../devlib"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.7"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="warfile" value="wars/jpetstore.war"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="java.io.tmpdir" value="C:\Users\417910\AppData\Local\Temp\"></property>
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+
+          <property name="user.dir" value="D:\JPetStore5\build"></property>
+
+          <property name="coveragereports" value="reports/coverage/"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="basedir" value="D:\JPetStore5\build"></property>
+
+          <property name="ant.java.version" value="1.5"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="wars" value="wars"></property>
+
+          <property name="java.specification.version" value="1.7"></property>
+
+      </properties>
+
+      <testcase classname="com.ibatis.jpetstore.service.OrderServiceTest" name="testShouldCallGetNextIdOnSequenceDao" time="0.071"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.OrderServiceTest" name="testShouldCallInsertOrderOnOrderDao" time="0.013"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.OrderServiceTest" name="testShouldCallGetOrdersByUsernameOnOrderDao" time="0.001"></testcase>
+
+      <testcase classname="com.ibatis.jpetstore.service.OrderServiceTest" name="testShouldCallGetOrderOnOrderDao" time="0.001"></testcase>
+
+      <system-out><![CDATA[EMMA: collecting runtime coverage data ...
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
